@@ -19,6 +19,8 @@ def run():
     for key, value in super_dict.items():
         print(key, "-", value)
 
+    for item in super_list:
+        print(item['firstname'], '-', item['lastname'])
 
 if __name__ == '__main__':
     run()
